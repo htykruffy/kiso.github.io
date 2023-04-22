@@ -1,0 +1,157 @@
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p,
+form, input, div {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #333
+}
+
+header {
+    height: 50px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    position: fixed;
+}
+
+.header-container {
+    height: 50px;
+    width: 300px;
+}
+
+.header-logo {
+    font-size: 20px;
+    padding: 10px 10px;
+}
+
+.header-logo a {
+    color: white;
+}
+
+
+.page {
+    width: 100%;
+    padding-top: 70px;
+    text-align: center;
+}
+
+.page ul {
+    display: flex;
+}
+
+.page ul li {
+    width: 200px;
+    min-width: 200px;
+    border-right: 2px solid #ddd;
+}
+
+.btn:hover {
+    background-color: #333;
+    opacity: 0.8;
+    color: white;
+}
+
+.header-img {
+    padding-top: 15px;
+    text-align: center;
+}
+
+.profile {
+    text-align: center;
+    height: 1000px;
+}
+
+.profile-title {
+    padding-top: 100px;
+    padding-bottom: 50px;
+    font-size: 30px;
+}
+
+.profile-img {
+    display: inline-block;
+    padding: 0 80px 0 80px;
+}
+
+.img-contents {
+    text-align: center;
+}
+
+
+.img-contents ul {
+    text-align: left;
+}
+
+.img-contents li {
+    padding-left: 50px;
+}
+
+.twitter-manga-tiktok {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding-bottom: 100px;
+}
+
+.twitter {
+    padding-right: 30px;
+}
+
+.manga {
+    padding-right: 30px;
+}
+
+.twitter p {
+    padding-bottom: 20px;
+    font-size: 30px;
+}
+
+.manga p {
+    padding-bottom: 20px;
+    font-size: 30px;
+}
+
+.tiktok p {
+    padding-bottom: 20px;
+    font-size: 30px;
+}
+
+.container {
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    opacity: 0.8;
+}
+
+.container p {
+    color: white;
+    padding: 10px 10px;
+    opacity: 1;
+}
+
+
+
+
+
+
+.manga {
+    text-align: center;
+}
+
+.manga-title {
+    padding-top: 100px;
+    padding-bottom: 50px;
+    font-size: 40px;
+}
+
+.story {
+    padding-bottom: 100px;
+}
